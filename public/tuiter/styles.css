@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+.wd-left-offset {
+    margin-left: 16px;
+}
+.wd-right-offset {
+    margin-right: 12px;
+}
+.wd-top-offset {
+    margin-top: 12px;
+}
+.wd-border {
+    border: 1px solid rgb(47, 51, 54);
+}
+.wd-rounded-edges {
+    border-radius: 10px;
+}
+.wd-top-rounded-edges {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.wd-bottom-rounded-edges {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.wd-circular {
+    border-radius: 50px;
+}
+.wd-border-bottom {
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-font-size-20 {
+    font-size: 20px;
+}
+.wd-font-size-15 {
+    font-size: 15px;
+}
+.wd-font-size-13 {
+    font-size: 13px;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-fg-color-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.wd-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.wd-flex-item {
+    flex-grow: 1;
+    font-size: 15px;
+}
