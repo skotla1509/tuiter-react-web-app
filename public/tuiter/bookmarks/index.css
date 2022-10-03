@@ -1,33 +1,15 @@
-.wd-section-break {
-    padding-bottom: 12px;
-}
-.wd-padding-left {
-    padding-left: 12px;
-}
-.wd-content {
+.wd-set-width-block {
     max-width: 506px;
-    padding-right: 16px;
-    padding-bottom: 12px;
 }
-.wd-fit-max-content {
-    max-width: 506px;
+.wd-set-width-image {
+    max-width: 504px;
+}
+.wd-set-width-max-content {
+    width: max-content;
 }
 .wd-font-bold {
     font-weight: 700;
 }
 .wd-padding-all-round {
     padding: 12px;
-}
-.gg-comment {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(20,1);
-    width: 20px;
-    height: 16px;
-    border: 2px solid;
-    border-bottom: 0;
-    box-shadow:
-            -6px 8px 0 -6px,
-            6px 8px 0 -6px
 }

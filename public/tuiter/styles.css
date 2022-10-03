@@ -1,14 +1,32 @@
 body {
     background-color: black;
 }
-.wd-left-offset {
+.wd-left-offset-16 {
     margin-left: 16px;
 }
-.wd-right-offset {
+.wd-right-offset-12 {
     margin-right: 12px;
+}
+.wd-right-offset-16 {
+    margin-right: 16px;
 }
 .wd-top-offset {
     margin-top: 12px;
+}
+.wd-padding-bottom {
+    padding-bottom: 12px;
+}
+.wd-padding-left {
+    padding-left: 12px;
+}
+.wd-padding-top {
+    padding-top: 12px;
+}
+.wd-padding-right {
+    padding-right: 12px;
+}
+.wd-padding-left-unset {
+    padding-left: 0;
 }
 .wd-border {
     border: 1px solid rgb(47, 51, 54);
@@ -44,7 +62,9 @@ body {
 .wd-fg-color-white {
     color: white;
 }
-
+.wd-fg-color-red {
+    color: red;
+}
 .wd-fg-color-gray {
     color: rgb(110, 118, 125);
 }
@@ -60,4 +80,10 @@ body {
 .wd-flex-item {
     flex-grow: 1;
     font-size: 15px;
+}
+.wd-flex-align-end {
+    align-items: end;
+}
+.wd-no-text-decoration {
+    text-decoration: none;
 }
