@@ -1,0 +1,237 @@
+.wd-full-width {
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+
+/**
+    Challenge Style overrides
+ */
+.wd-leftnav > .list-group-item {
+    background-color: black;
+    color: white;
+}
+.wd-leftnav > .list-group-item.active {
+    border-color: black;
+    background-color: black;
+    font-weight: 700;
+}
+
+.wd-maincontent > .list-group-item {
+    background-color: black;
+    padding-left: 10px;
+    color: white;
+}
+.wd-maincontent > .list-group-item.active {
+    border-color: black;
+    background-color: black;
+    font-weight: 700;
+}
+
+.wd-rightnav > .list-group-item {
+    background-color: rgb(47, 51, 54);
+    border-color: rgb(47, 51, 54);
+    color: white;
+}
+
+.form-control {
+    background-color: rgb(47, 51, 54);
+    border-color: black;
+    color: white;
+}
+.form-control:focus {
+    background-color: rgb(47, 51, 54);
+    border-color: black;
+    color: white;
+    box-shadow: none;
+}
+.border {
+    border: 1px solid rgb(47, 51, 54) !important;
+}
+.border-top {
+    border-top: 1px solid rgb(47, 51, 54) !important;
+}
+.border-bottom {
+    border-bottom: 1px solid rgb(47, 51, 54) !important;
+}
+.wd-margin-left-10 {
+    margin-left: 10px;
+}
+
+.wd-more {
+    font-size: 0.5em;
+}
+.wd-set-height-width-16 {
+    height: 16px;
+    width: 16px;
+}
+
+.wd-set-height-width-18 {
+    height: 18px;
+    width: 18px;
+}
+
+.wd-v-align-center {
+    align-self: center;
+}
+
+.wd-text-bold {
+    font-weight: 700;
+}
+
+.wd-image-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+
+
+
+.wd-search-icon {
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+.wd-padding-left-50 {
+    padding-left: 50px !important;
+}
+.wd-left-offset-16 {
+    margin-left: 16px;
+}
+.wd-right-offset-12 {
+    margin-right: 12px;
+}
+.wd-right-offset-16 {
+    margin-right: 16px;
+}
+.wd-top-offset {
+    margin-top: 12px;
+}
+.wd-padding-bottom {
+    padding-bottom: 12px;
+}
+.wd-padding-left {
+    padding-left: 12px;
+}
+.wd-padding-top {
+    padding-top: 12px;
+}
+.wd-padding-right {
+    padding-right: 12px;
+}
+.wd-padding-left-unset {
+    padding-left: 0;
+}
+.wd-border {
+    border: 1px solid rgb(47, 51, 54);
+}
+.wd-rounded-edges {
+    border-radius: 10px;
+}
+.wd-top-rounded-edges {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.wd-bottom-rounded-edges {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.wd-circular {
+    border-radius: 50px;
+}
+.wd-border-bottom {
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-font-size-20 {
+    font-size: 20px;
+}
+.wd-font-size-15 {
+    font-size: 15px;
+}
+.wd-font-size-13 {
+    font-size: 13px;
+}
+.wd-fg-color-white {
+    color: white;
+}
+.wd-fg-color-red {
+    color: red;
+}
+.wd-fg-color-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.wd-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.wd-flex-item {
+    flex-grow: 1;
+    font-size: 15px;
+}
+.wd-flex-align-end {
+    align-items: end;
+}
+.wd-no-text-decoration {
+    text-decoration: none;
+}
+.wd-padding-all-round {
+    padding: 16px;
+}
+.wd-search-box {
+    border-radius: 50px;
+    border-width: 0;
+    padding: 5px 10px;
+    background-color: rgb(47, 51, 54);
+}
+input {
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+.wd-icon-gear {
+    color:rgb(29, 155, 240);
+    font-size: 1.25em;
+    padding-left: 10px;
+}
+.wd-text-highlight {
+    height: 4px;
+    align-self: center;
+    background-color: rgb(29,161,242);
+    max-width: 100px;
+    position: relative;
+    top: 16px;
+    border-radius: 50px;
+}
+.wd-link-selected {
+    color: white;
+}
+.wd-item-topic {
+    color: rgb( 110, 118, 125);
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.wd-item-tuits {
+    color: rgb( 110, 118, 125);
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.wd-item-title {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.wd-item-author {
+    color: white;
+}
