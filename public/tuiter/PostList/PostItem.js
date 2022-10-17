@@ -27,7 +27,7 @@ const imagePortion = (post) => {
             <div class="">
                 <img src=${post.image}
                      width="100%" height="300px"
-                     class="rounded"/>
+                     class="rounded border border-secondary"/>
             </div>
         </div>
     `);
