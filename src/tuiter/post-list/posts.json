@@ -1,0 +1,74 @@
+[
+  {
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "profileImg": "../../images/spacex_logo.jpg",
+    "time": "23h",
+    "title": "Dennis and Akiko Tito are the first two crewmembers on Starship’s second commercial spaceflight around the Moon ->",
+    "link": "spacex.com/updates",
+    "isVerified": true,
+    "imagePost": {
+      "image": "../../images/post_spaceX.jpg",
+      "imageTitle": "",
+      "imageDesc": ""
+    },
+    "likes": "11.1K",
+    "retuits": "1,168",
+    "comments": "595"
+  },
+  {
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "profileImg": "../../images/nypost.jpg",
+    "time": "23h",
+    "title": "We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
+    "link": "",
+    "isVerified": true,
+    "rePost": {
+      "userName": "SpaceX",
+      "handle": "SpaceX",
+      "profileImg": "../../images/post_spaceX.jpg",
+      "isVerified": true,
+      "time": "Oct 12",
+      "title": "Starlink for RVs now has over 100,000 customers! Access high-speed, low-latency internet on an as-needed basis anywhere Starlink provides active coverage ->",
+      "link": "http://starlink.com/rv"
+    },
+    "likes": "4K",
+    "retuits": "2.4K",
+    "comments": "965"
+  },
+  {
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "profileImg": "../../images/elon_musk.jpg",
+    "time": "yesterday",
+    "title": "Amazing show about Inspiration4x mission!",
+    "link": "",
+    "isVerified": true,
+    "imagePost": {
+      "image": "../../images/inspiration.jpg",
+      "imageTitle": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
+      "imageDesc": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space mission."
+    },
+    "likes": "37.5K",
+    "retuits": "3.5K",
+    "comments": "4.2K"
+  },
+  {
+    "userName": "New York Post",
+    "handle": "nypost",
+    "profileImg": "../../images/nypost.jpg",
+    "time": "last week",
+    "title": "Grimes seen reading Karl Marx following split with world\"s richest man Elon Musk",
+    "link": "https://trib.al/nx2Gfaq",
+    "isVerified": true,
+    "imagePost": {
+      "image": "../../images/grimes.jfif",
+      "imageTitle": "",
+      "imageDesc": ""
+    },
+    "likes": "4K",
+    "retuits": "2.4K",
+    "comments": "965"
+  }
+]

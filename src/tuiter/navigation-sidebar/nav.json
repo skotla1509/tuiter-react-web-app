@@ -1,0 +1,50 @@
+[
+  {
+    "key": "home",
+    "value": "Home",
+    "icon": "fa-solid fa-house-chimney",
+    "redirect": "/tuiter/home"
+  },
+  {
+    "key": "explore",
+    "value": "Explore",
+    "icon": "fa-solid fa-hashtag",
+    "redirect": "/tuiter/explore"
+  },
+  {
+    "key": "notifications",
+    "value": "Notifications",
+    "icon": "fa-solid fa-bell",
+    "redirect": "#"
+  },
+  {
+    "key": "messages",
+    "value": "Messages",
+    "icon": "fa-solid fa-envelope",
+    "redirect": "#"
+  },
+  {
+    "key": "bookmarks",
+    "value": "Bookmarks",
+    "icon": "fa-solid fa-bookmark",
+    "redirect": "#"
+  },
+  {
+    "key": "lists",
+    "value": "Lists",
+    "icon": "fa-solid fa-list",
+    "redirect": "#"
+  },
+  {
+    "key": "profile",
+    "value": "Profile",
+    "icon": "fa-solid fa-user",
+    "redirect": "#"
+  },
+  {
+    "key": "labs",
+    "value": "Labs",
+    "icon": "fa-solid fa-ellipsis-h",
+    "redirect": "/"
+  }
+]
