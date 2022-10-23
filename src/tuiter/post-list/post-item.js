@@ -48,7 +48,7 @@ const PostItem = ({
                   </div>
                   <div className="col">
                         <span className="">{post.title}</span>
-                        {post.link && <span className="text-primary">{post.link}</span>}
+                        {post.link && <span className="text-primary ps-1">{post.link}</span>}
                   </div>
                   {post.imagePost && <ImagePost post={post.imagePost}/>}
                   {post.rePost && <RePost post={post.rePost}/>}
