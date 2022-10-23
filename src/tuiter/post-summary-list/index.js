@@ -4,8 +4,8 @@ import PostSummaryItem from "./post-summary-item";
 
 const PostSummaryList = () => {
     return(
-        <ul class="list-group">
-            {posts.map((item) => <PostSummaryItem post={item}/>)}
+        <ul className="list-group">
+            {posts.map((item, index) => <PostSummaryItem post={item} key={index}/>)}
         </ul>
     );
 }

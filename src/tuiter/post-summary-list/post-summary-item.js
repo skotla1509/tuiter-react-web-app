@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 
 const PostSummaryItem  = (
     {
@@ -12,11 +10,12 @@ const PostSummaryItem  = (
             image: "../../../images/react_logo.png",
             tuits: "",
             isVerified: true
-        } 
+        },
+        key
     }
 ) => {
     return(
-        <li className="list-group-item list-group-item-action">
+        <li className="list-group-item list-group-item-action" key={key}>
           <div className="row">
             <div className="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-10">
               <div className="text-secondary">{post.topic}</div>

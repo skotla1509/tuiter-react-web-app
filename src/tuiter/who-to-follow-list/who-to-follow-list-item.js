@@ -8,11 +8,12 @@ const WhoToFollowListItem  = (
             userName: "Java",
             handle: "Java",
             isVerified: true
-        }
+        },
+        key
     }
 ) => {
     return(
-        <li className="list-group-item list-group-item-action">
+        <li className="list-group-item list-group-item-action" key={key}>
             <div className="row">
                 <div className="col-lg-3 col-xl-2">
                     <img src={who.avatarIcon}

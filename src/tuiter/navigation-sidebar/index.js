@@ -11,11 +11,12 @@ const NavigationSidebar = () => {
     const active = paths[2];
     return (
         <div className="list-group">
-            <a href="/public" className="list-group-item list-group-item-action">
+            <a href="/public" className="list-group-item list-group-item-action" id="main">
                 <FontAwesomeIcon icon="fa-solid fa-t" />
             </a>
-            {navItems.map((item) => NavigationItem(item, active))}
+            {navItems.map((item, index) => <NavigationItem navItem={item} active={active} id={index}/>)}
             <a href="#"
+               id="more"
                className={`list-group-item list-group-item-action ${active === "more" ? " active": ""}`}>
                 <FontAwesomeIcon icon="fa-solid fa-ellipsis-h"/>
                 <span className="d-none d-xl-inline m-2">More</span>
