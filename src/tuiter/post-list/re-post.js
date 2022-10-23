@@ -24,7 +24,7 @@ const RePost = ({post}) => {
                         <div className="row">
                             <div className="col">
                                 <span className="">{post.title}</span>
-                                {post.link && <Link to={post.link} className="ps-1">{post.link}</Link>}
+                                {post.link && <span className="text-primary">{post.link}</span>}
                             </div>
                         </div>
                     </div>
