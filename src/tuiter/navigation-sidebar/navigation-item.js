@@ -6,7 +6,7 @@ const NavigationItem = ({navItem, active, index}) => {
     return(
         <Link to={navItem.redirect}
               key={index}
-              className={`list-group-item list-group-item-action ${(navItem.key === active) ? " active" : ""}`}
+              className={`list-group-item list-group-item-action ${(active.includes(navItem.key)) ? " active" : ""}`}
         >
             <FontAwesomeIcon icon={navItem.icon} />
             <span className="d-none d-xl-inline m-2">{navItem.value}</span>

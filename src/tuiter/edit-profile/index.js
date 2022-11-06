@@ -60,16 +60,34 @@ const EditProfileComponent = () => {
                 <br/><br/>
                 <div className="row mt-4">
                     <div className="col-12">
-                        <label htmlFor="userName">Name</label>
-                        <input value={currProfile.userName}
-                               id='userName'
+                        <label htmlFor="firstName">First name</label>
+                        <input value={currProfile.firstName}
+                               id='firstName'
                                className="form-control"
-                               placeholder="Enter name"
+                               placeholder="Enter first name"
                                onChange={(e) => {
                                    editCurrProfile(
                                        {
                                            ...currProfile,
-                                           userName: e.target.value
+                                           firstName: e.target.value
+                                       }
+                                   )
+                               }}
+                        />
+                    </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col-12">
+                        <label htmlFor="lastName">Last name</label>
+                        <input value={currProfile.lastName}
+                               id='lastName'
+                               className="form-control"
+                               placeholder="Enter last name"
+                               onChange={(e) => {
+                                   editCurrProfile(
+                                       {
+                                           ...currProfile,
+                                           lastName: e.target.value
                                        }
                                    )
                                }}
@@ -131,7 +149,7 @@ const EditProfileComponent = () => {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-6">
+                    <div className="col-12">
                         <span>Birthdate</span>
                         {!editBirthdate &&
                          <>
@@ -156,18 +174,17 @@ const EditProfileComponent = () => {
                                      className="btn btn-link">
                                  Done
                              </button>
-                             <Calendar value={new Date(currProfile.dateOfBirth)}
-                                       onChange={(e) => {
-                                           const newDOB = e.toLocaleDateString(
-                                               "en-US");
-                                           editCurrProfile(
-                                               {
-                                                   ...currProfile,
-                                                   dateOfBirth: newDOB
-                                               }
-                                           )
-                                       }
-                                       }
+                             <br/>
+                             <input type="date"
+                                    value={currProfile.dateOfBirth}
+                                    onChange={(e) => {
+                                        editCurrProfile(
+                                            {
+                                                ...currProfile,
+                                                dateOfBirth: e.target.value
+                                            }
+                                        )
+                                    }}
                              />
                          </>
                         }
