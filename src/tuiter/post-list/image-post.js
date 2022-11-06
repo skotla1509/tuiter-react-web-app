@@ -9,7 +9,9 @@ const ImagePost = ({post}) => {
                          <div className="col">
                              <img src={post.image}
                                   width="100%" height="300px"
-                                  className="rounded-top border-bottom border-secondary" alt="Post image"/>
+                                  className="rounded-top border-bottom border-secondary"
+                                  alt=""
+                             />
                          </div>
                          <div className="col px-4 py-2">
                              <div className="">
@@ -28,7 +30,9 @@ const ImagePost = ({post}) => {
                  <div className="">
                      <img src={post.image}
                           width="100%" height="300px"
-                          className="rounded border" alt="Post image"/>
+                          className="rounded border"
+                          alt=""
+                     />
                  </div>
              </div>
             }

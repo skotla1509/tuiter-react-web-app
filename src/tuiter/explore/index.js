@@ -7,6 +7,7 @@ import PostSummaryList from "../post-summary-list";
 const ExploreComponent = () => {
     return(
         <>
+            <h1>Explore</h1>
             <div className="row">
                 <div className="col-11 position-relative">
                     <input className="form-control rounded-pill wd-padding-left-50" type="text" placeholder="Search Tuiter"/>

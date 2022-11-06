@@ -1,11 +1,12 @@
+import React from "react";
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/todo-list";
 
-function Assignment6() {
+const Assignment6 = () => {
     return (
-        <div>
+        <>
             <h1>Assignment 6</h1>
             <br/><br/>
             <TodoList/>
@@ -15,7 +16,7 @@ function Assignment6() {
             <Styles/>
             <br/><br/>
             <Classes/>
-        </div>
+        </>
     );
 }
 export default Assignment6;

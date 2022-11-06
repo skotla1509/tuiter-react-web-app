@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ImagePost from "./image-post";
 import RePost from "./re-post";
@@ -28,7 +27,9 @@ const PostItem = ({
               <img src={post.profileImg}
                    className="rounded-circle"
                    height="45px"
-                   width="45px" alt="Profile Picture"/>
+                   width="45px"
+                   alt=""
+              />
             </div>
             <div className="col-11">
               <div className="row d-flex flex-column">

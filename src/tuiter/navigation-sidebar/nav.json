@@ -3,7 +3,7 @@
     "key": "home",
     "value": "Home",
     "icon": "fa-solid fa-house-chimney",
-    "redirect": "/tuiter/home"
+    "redirect": "/tuiter"
   },
   {
     "key": "explore",
@@ -39,7 +39,7 @@
     "key": "profile",
     "value": "Profile",
     "icon": "fa-solid fa-user",
-    "redirect": "#"
+    "redirect": "/tuiter/profile"
   },
   {
     "key": "labs",

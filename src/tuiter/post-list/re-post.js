@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const RePost = ({post}) => {
@@ -13,7 +12,9 @@ const RePost = ({post}) => {
                                 <img src={post.profileImg}
                                      className="rounded-circle"
                                      height="20px"
-                                     width="20px" alt="Profile Picture"/>
+                                     width="20px"
+                                     alt=""
+                                />
                                 <span className="ps-1">
                                     <strong>{post.userName}</strong>
                                 </span>
