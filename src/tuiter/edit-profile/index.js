@@ -2,8 +2,7 @@ import React, {useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {useDispatch, useSelector} from 'react-redux';
 import {useNavigate} from "react-router-dom";
-import Calendar from 'react-calendar';
-import {navigateBack, saveChanges} from "../reducers/profile-reducer";
+import {saveChanges} from "../reducers/profile-reducer";
 
 const EditProfileComponent = () => {
     const userProfile = useSelector((state) => state.profile);
