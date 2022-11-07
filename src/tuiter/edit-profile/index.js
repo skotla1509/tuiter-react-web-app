@@ -9,8 +9,6 @@ const EditProfileComponent = () => {
     const [currProfile, editCurrProfile] = useState(userProfile);
     const [editBirthdate, setEditBirthdate] = useState(false);
     const dispatch = useDispatch();
-
-    const userName = userProfile.firstName + " " + userProfile.lastName;
     const navigate = useNavigate();
 
     const saveProfileHandler = () => {

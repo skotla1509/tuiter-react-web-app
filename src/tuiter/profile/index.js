@@ -24,7 +24,7 @@ const ProfileComponent = () => {
                     <div className="col-11">
                         <div className="row">
                             <div className="col-12">
-                                <h4>{userName}</h4>
+                                <h4 className="m-0">{userName}</h4>
                             </div>
                             <div className="col-12">
                                 <span>{userProfile.tuits} Tweets</span>
@@ -58,7 +58,7 @@ const ProfileComponent = () => {
                 </div>
                 <div className="row mt-4">
                     <div className="col-12">
-                        <h4>{userName}</h4>
+                        <h4 className="m-0">{userName}</h4>
                         <span className="text-secondary">{userProfile.handle}</span>
                     </div>
                     <div className="col-12 text-secondary">
