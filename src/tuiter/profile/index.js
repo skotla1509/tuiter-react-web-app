@@ -104,7 +104,7 @@ const ProfileComponent = () => {
 
 const getFormattedDOB = (dateStr) => {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateStr).toLocaleDateString('en-US', options)
+    return new Date(`${dateStr}T05:00:00Z`).toLocaleDateString('en-US', options)
 }
 
 export default ProfileComponent;
