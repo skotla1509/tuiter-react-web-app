@@ -8,10 +8,10 @@ const  TuitItem = (
     {
         tuit = {
             "_id": 123,
-            "userName": "SpaceX",
+            "username": "SpaceX",
             "handle": "SpaceX",
             "isVerified": true,
-            "image": "../../images/spacex_logo.jpg",
+            "image": "spacex_logo.jpg",
             "time": "23h",
             "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
             "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
@@ -30,7 +30,7 @@ const  TuitItem = (
     return (
         <div className="row">
             <div className="col-1">
-                <img src={tuit.image}
+                <img src={`../../images/${tuit.image}`}
                      className="rounded-circle"
                      height="45px"
                      width="45px"
@@ -43,10 +43,10 @@ const  TuitItem = (
                         <div className="row">
                             <div className="col-11">
                                 <span className="">
-                                    <strong>{tuit.userName}</strong>
+                                    <strong>{tuit.username}</strong>
                                 </span>
                                 {tuit.isVerified && <i className="bi bi-patch-check-fill ps-1 text-primary"></i>}
-                                <span className="text-secondary"> @{tuit.handle} · {tuit.time}</span>
+                                <span className="text-secondary"> {tuit.handle} · {tuit.time}</span>
                             </div>
                             <div className="col-1 text-secondary">
                                 <FontAwesomeIcon icon="fa-solid fa-x" onClick={() => deleteTuitHandler(tuit._id)}/>
