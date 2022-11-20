@@ -2,9 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from '../reducers/tuits-reducer';
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
-const TuitItem = (
+const  TuitItem = (
     {
         tuit = {
             "_id": 123,
@@ -24,8 +24,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        console.log("Click!!!")
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
